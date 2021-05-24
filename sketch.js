@@ -1,5 +1,8 @@
+
+
 function setup() {
   createCanvas(1040, 663);
+
 
 
   strokeWeight(10);
@@ -8,6 +11,7 @@ function setup() {
 function draw() {
 
   if (mouseIsPressed){
+
   line(mouseX, mouseY, pmouseX, pmouseY);
   }
 
